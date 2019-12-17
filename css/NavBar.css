@@ -1,0 +1,67 @@
+.NavBar{
+	width: 15vw;
+	height: 100vh;
+	position: fixed;
+	background-color: white;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-box-shadow: 10px 0px 25px -1px rgba(184,184,184,1);
+	-moz-box-shadow: 10px 0px 25px -1px rgba(184,184,184,1);
+	box-shadow: 10px 0px 25px -1px rgba(184,184,184,1);
+	justify-content: center;
+	z-index:5;
+}
+.LogoSquare{
+	width: 14.90vw;
+	height: 10vw;
+	height: 10vw;
+	position: relative;
+	top: 0;
+	padding-left: 4vw;
+	padding-top: 4vw;
+	margin-bottom: 1rem;
+}
+.Logo{
+	background-color: #8DF6B4;
+	border-radius: 50%;
+	font-family: Arial;
+	font-size: 80pt;
+	height: 6rem;
+	width: 6rem;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.NavTab{
+	height: 1.5rem;
+	position: relative;
+	width: 12vw;
+	justify-content: center;
+	color: #707070;
+	font-family: Arial;
+	padding-left: 3vw;
+	padding-top: .5rem;
+}
+.NavTabChosen{
+	height: 1.5rem;
+	position: relative;
+	width: 12vw;
+	justify-content: center;
+	justify-items: center;
+	color: #707070;
+	background-color: #8DF6B4;
+	color: white;
+	font-family: Arial;
+	padding-top: .5rem;
+	padding-left: 3vw;
+}
+.NavTab :hover{
+	background-color: #8DF6B4;
+	height: 2rem;
+	width: 15vw;
+	color: white;		
+}
+.NavLink{
+
+}
