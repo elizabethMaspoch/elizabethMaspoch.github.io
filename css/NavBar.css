@@ -40,8 +40,13 @@
 	justify-content: center;
 	color: #707070;
 	font-family: Arial;
+	background-color: transparent;
 	padding-left: 3vw;
 	padding-top: .5rem;
+}
+.NavLink{
+	text-decoration: none;
+	color: #707070;
 }
 .NavTabChosen{
 	height: 1.5rem;
@@ -57,11 +62,5 @@
 	padding-left: 3vw;
 }
 .NavTab :hover{
-	background-color: #8DF6B4;
-	height: 2rem;
-	width: 15vw;
-	color: white;		
-}
-.NavLink{
-
+	color: #8DF6B4;
 }

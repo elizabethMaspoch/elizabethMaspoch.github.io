@@ -10,7 +10,7 @@
 .FavoriteContent{
     width: 79vw;
     right: 0;
-    margin: 17vw;
+    margin-left: 17vw;
     align-text: left;
     color: #707070;
 
@@ -18,6 +18,7 @@
 .SectionHeader{
     font-family: Segoe UI;
     line-height: 0pt;
+    margin-top: 10vh;
     color: #707070;
 }
 .SectionHeaderDivider{
@@ -29,33 +30,54 @@
     padding-left: 1vw;
  }
 .Resources{
-    width: 50vw;
-    margin-left: 10vw;
-    margin-top: 5vw;
+    width: 73vw;
+    display: grid;
+    padding-top: 8vh;
 }
 .ResourcesRow{
-    width: 15vw;
+}
+.ResourceDescription{
+    font-family: "Segoe UI";
+    padding-left: 1vw;
 }
 .ResourcesCell{
-    width: 10vw;
-    padding-right: 6vw;
-    display: inline-block;
+    width: 8vw;
+    height: 35vh;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    position: relative;
+}
+.ResourceLink{
+
+}
+.Tester :hover{
+    color: #8DF6B4;
+}
+.ResourceLink :hover{
+    color: #8DF6B4;
 }
 .ResourceImage{
+    position: absolute;
+    top: 0;
     height: 3vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
     width: 3vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
 }
 .ResourceName{
     font-family: Segoe UI;
-    padding-left: 2vw;
-    padding-right: 2vw;
     color: #707070;
+    position: absolute;
+    top: 4vh;
+    width: 8vw;
+    text-align: center;
 }
 .ResourceParagraph{
     font-family: Segoe UI;
     color: #707070;
     font-size: 10pt;
+    position: absolute;
+    top: 15vh;
+    width: 8vw;
     text-align: justify;
 }

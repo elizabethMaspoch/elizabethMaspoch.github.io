@@ -1,0 +1,89 @@
+.WorkHistory{
+    width: 65vw;
+    font-family: "Segoe UI";
+    top: 0vh;
+    right: 16vw;
+    margin-left: 17vw;
+    align-text: left;
+    margin-top: 28vh;
+    color: #707070;
+    padding-left: 3vh;
+    margin-top: 12vh;
+}
+.WorkTabImg{
+    height: 1vh;
+    width: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1.5vh;
+}
+.WorkHistoryTitle{
+    line-height: 0pt;
+    position: relative;
+    top: 0;
+    padding-right: 2vw;
+}
+.WorkHistoryTab{
+    display: inline-flex;
+    height: 3vh;
+    border: 2px solid pink;
+    width: 50vw;
+}
+.WorkHistoryHeader{
+    margin-top: 8vh;
+    text-decoration: none;
+    line-height: 8pt;
+}
+.WorkHistoryParagraph{
+    padding-left: 3vh;
+    font-size: 8pt;
+    line-height: 8pt;
+}
+.WorkHistoryHr{
+    width: 64wv;
+    margin-left: 1vw;
+}
+.Education{
+    width: 65vw;
+    font-family: "Segoe UI";
+    top: 0vh;
+    right: 16vw;
+    margin-left: 17vw;
+    align-text: left;
+    margin-top: 28vh;
+    color: #707070;
+    margin-bottom: -20vh;
+}
+.Topbar{
+    display: inline-flex;
+}
+.PDFbutton{
+    height: 6vh;
+    width: 10vw;
+    right: 0;
+    margin-top: 28vh;
+    background-color: #8DF6B4;
+    border: #8DF6B4;
+    color: white;
+    font-family: "Segoe UI";
+}
+.PDFbutton :hover{
+    background-color: #5af292;
+    border: #5af292;
+}
+.EducationHeader{
+    color: #8DF6B4;
+    padding-left: 2vw;
+    letter-spacing: .25vw;
+}
+.Bachelors{
+    padding-left: 4vw;
+    line-height: 0;
+    letter-spacing: .25vw;
+}
+.Details{
+    padding-left: 4vw;
+    line-height: 0;
+    font-size: 10pt;
+    letter-spacing: .05vw;
+}
